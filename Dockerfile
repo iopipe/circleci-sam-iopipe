@@ -5,3 +5,4 @@ MAINTAINER dev@iopipe.com
 RUN sudo apt-get update
 RUN sudo apt-get install python-pip python-dev build-essential
 RUN sudo pip install aws-sam-cli
+RUN echo "test"
