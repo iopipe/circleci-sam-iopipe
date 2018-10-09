@@ -4,4 +4,5 @@ MAINTAINER dev@iopipe.com
 
 RUN sudo apt-get update
 RUN sudo apt-get install python3-pip
-RUN sudo pip install aws-sam-cli
+RUN sudo python3 -m pip install --upgrade setuptools
+RUN sudo python3 -m pip install aws-sam-cli
